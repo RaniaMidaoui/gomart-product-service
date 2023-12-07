@@ -1,4 +1,4 @@
-# goMart-product-service
+# gomart-product-service
 This repository contains the code and Dockerfile for the product microservice of the **goMart** application, along with the Jenkinsfile describing the CI/CD pipeline for the microservice.
 
 To run the code, you need to have Golang package installed:
@@ -27,7 +27,7 @@ $ go mod tidy
 $ make proto
 $ make server
 ```
-To test the microservice, the [API Gateway](https://github.com/RaniaMidaoui/goMart-gateway) must be running in order to redirect the request to the product microservice, you must already have registered and logged in a user with the [authentication microservice](https://github.com/RaniaMidaoui/goMart-authentication-service) and got his authorization token (\$TOKEN):
+To test the microservice, the [API Gateway](https://github.com/RaniaMidaoui/gomart-gateway) must be running in order to redirect the request to the product microservice, you must already have registered and logged in a user with the [authentication microservice](https://github.com/RaniaMidaoui/gomart-authentication-service) and got his authorization token (\$TOKEN):
 ```
 #Create a product
 PRODUCT=$(curl --request POST \

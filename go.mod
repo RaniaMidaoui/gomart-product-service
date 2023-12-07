@@ -1,4 +1,4 @@
-module github.com/RaniaMidaoui/goMart-product-service
+module github.com/RaniaMidaoui/gomart-product-service
 
 go 1.20
 

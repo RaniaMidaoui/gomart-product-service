@@ -6,9 +6,9 @@ import (
 	"net"
 	"testing"
 
-	"github.com/RaniaMidaoui/goMart-product-service/pkg/db"
-	"github.com/RaniaMidaoui/goMart-product-service/pkg/pb"
-	"github.com/RaniaMidaoui/goMart-product-service/pkg/services"
+	"github.com/RaniaMidaoui/gomart-product-service/pkg/db"
+	"github.com/RaniaMidaoui/gomart-product-service/pkg/pb"
+	"github.com/RaniaMidaoui/gomart-product-service/pkg/services"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"

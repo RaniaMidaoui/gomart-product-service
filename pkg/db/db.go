@@ -4,7 +4,7 @@ import (
 	"log"
 
 	"github.com/DATA-DOG/go-sqlmock"
-	"github.com/RaniaMidaoui/goMart-product-service/pkg/models"
+	"github.com/RaniaMidaoui/gomart-product-service/pkg/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
